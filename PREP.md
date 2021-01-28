@@ -8,7 +8,16 @@ Download and install the [Arduino IDE](https://www.arduino.cc/en/main/software).
 
 ## Step 2 - Test your water pump
 
-Sometimes the pumps have a few issues and can take a while to get working, so it's a good idea to test if yours is working before the evening. If it doesn't work see [troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams#my-pump-isnt-working).
+Sometimes the pumps have a few issues and can take a while to get working, so it's a good idea to test if yours is working before the evening.
+
+For these steps you don't need to program anything, just connect the motor to the power on the board and the board to your laptop.
+
+1. Strip the black and red wires of the pump (rather strip them more than too little.
+2. Now connect the + (red wire) of the pump to 3V pin on the ESP, and the - (black wire) to the ground pin (G).
+Note: You can do this by manually touching the stripped ends to the pins on the board, or you can use the white connector block to connect dupont cables to the stripped wires.
+4. Connect your board to your laptop.
+
+Now power should be flowing to the pump, and you will hear a soft humming noise. If it doesn't work see [troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams#my-pump-isnt-working).
 
 ## Step 3 - Set up your system
 
